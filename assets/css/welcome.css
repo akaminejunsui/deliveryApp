@@ -1,0 +1,145 @@
+.menubar {
+    height: 80px;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    margin:0!important;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.3);
+    transition-duration: 300ms;
+}
+.FirstHome {
+    margin-bottom: 200px;
+}
+#home {
+    margin-bottom: 50px;
+}
+#blog {
+    padding-top: 66px;
+    margin-bottom: 50px;
+}
+#driver {
+    margin-bottom: 100px;
+}
+.menu_category {
+    font-weight: 600;
+    font-size: 22px;
+}
+.menu_category li {
+    padding-left: 20px;
+}
+.menu_category li a {
+    color: #fff!important;
+    text-shadow: 0 0 3px #000;
+}
+.menu_category li a:hover {
+    text-shadow: 0 0 1px #fff;
+    color: #007bff!important;
+}
+.banner_btn {
+    border-color: #fff!important;
+    color: #fff!important;
+    margin-right: 50px;
+}
+.banner_btn:hover {
+    background-color: #007bff;
+    border-color: #007bff!important;
+}
+.item {
+    margin:0 auto;
+    max-width: 1400px!important;
+}
+.exam {
+    background: url('../images/homescreen.jpg') 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 701px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+}
+.driverscreen {
+    background: url('../images/driverscreen.png') 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 504px;
+    margin-bottom: 100px;
+}
+.load {
+    margin-left: 100px;    
+}
+.main_blog img{
+    width: 100%;
+    height: 100%;
+}
+.sideimg1 img{
+    width: 456px;
+    height: 300px;
+}
+.sideimg1 {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.sideimg2 {
+    margin-left: 10px;
+}
+.sideimg2 img{
+    width: 456px;
+    height: 300px;
+}
+.description {
+    color:#fff;
+    position: absolute;
+    padding-bottom: 20px;
+    background: linear-gradient(360deg, black, transparent);
+}
+.description_main {
+    color:#fff;
+    position: absolute;
+    padding-bottom: 20px;
+    background: linear-gradient(360deg, black, transparent);
+    width:97%;
+}
+.scrollBar {
+    height: 66px;
+    background: #333;
+    border-bottom: 6px solid #03ccfa;
+    position: fixed!important;
+}
+.scrollBar .nav-item{font-size: 18px;}
+.arrow_up {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: transparent;
+    transition-duration: 500ms;
+}
+.hidden {opacity: 0;}
+.section-1{
+    background-image: url(../images/section-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    filter: brightness(50%);
+    width: 100%;
+    height: 200px;
+
+}
+.section-2{
+    background-image: url(../images/section-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    filter: brightness(50%);
+    width: 100%;
+    height: 200px;
+
+}
+#contact {
+    width: 100%;
+    height: 400px;
+    background-color: #333;
+}
+.item h1 {
+    margin-top: 50px;
+}
+.driverscreen {
+    font-size: 18px;
+}
