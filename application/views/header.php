@@ -1,0 +1,9 @@
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(),'/assets/css/bootstrap.min.css'; ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(),'/assets/css/slider.css'; ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(),'/assets/css/fontawesome.min.css'; ?>">
+    <script src = "<?php echo base_url(),'/assets/js/jquery.min.js'; ?>"></script>
+    <script src = "<?php echo base_url(),'/assets/js/bootstrap.min.js'; ?>"></script>
+    <script src = "<?php echo base_url(),'/assets/js/popper.min.js'; ?>"></script>
+    <script src = "<?php echo base_url(),'/assets/js/smooth.js'; ?>"></script>
+    <script src = "<?php echo base_url(),'/assets/js/script.js'; ?>"></script>
+    <script src = "<?php echo base_url(),'/assets/js/custom.js'; ?>"></script>
