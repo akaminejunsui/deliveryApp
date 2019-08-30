@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -48,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 							<div class = 'text-center'>
 								<button type="button" class="btn btn-outline-secondary btn-lg banner_btn">How to it work</button>
-								<button type="button" class="btn btn-outline-secondary btn-lg banner_btn">Book a delivery</button>
+								<a href="<?php echo base_url(),'account/login';?>" class="btn btn-outline-secondary btn-lg banner_btn">Book a delivery</a>
 							</div>
 						</div>
 					</div>
