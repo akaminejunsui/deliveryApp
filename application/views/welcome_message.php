@@ -142,10 +142,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 				</div>
 			</div>
-			<div class = 'box' id = 'contact'></div>
+			<div class = 'box' id = 'contact'>
+				
+			</div>
 			<div class = 'arrow_up hidden'>
 				<a href="#pagetop"><img width = '50' src="<?php echo base_url(),'/assets/images/arrow-up.png'; ?>"></a>
 			</div>
+			<?php include('footer.php'); ?>
 		</div>
 	</body>
 </html>
